@@ -7,12 +7,17 @@ In the name of Allah the most gracious the most merciful
 CSS 'filter' editor is an educational project to make teaching *CSS filters* easier. The source code of this project is also written in an educational style. The project is written in pure web technologies and uses some basic javascript design patterns that can be useful to demonstrate the usage of closures and IIFEs in real pure-code projects and to show how to implement data bindings and how to open local images with pure javascript. It also demonstrates the power of JS and CSS themselves to make animations, syntax highlighting and prefect designs without using any third-party package. The layout is also written with flexbox but it is not so powerful but it also could have some educational usages in some cases :D
 
 
+## Live demo
+**UPDATE:** Check out this wonderful demo live CFE and forget about the Codepen version on:
+[Wonderful CFE online](https://akhavan-nabavi.github.io/css-filter-editor/)
+
+**OUTDATE:** Sadly this demo is not very good but I couldn't make it better in Codepen. However real CFE offers a bit more features (most of them are related to the UI).
+[CFE Live demo](https://codepen.io/nabavi/full/peZJVQ/)
+
+
 ## How to use
 Its so easy to tell the functionality of every button in CFE but however here is a guide down below:
 
-## Live demo
-Sadly this demo is not very good but I couldn't make it better in Codepen. However real CFE offers a bit more features (most of them are related to the UI).
-[CFE Live demo](https://codepen.io/nabavi/full/peZJVQ/)
 
 ### Run CFE
 There is not any special requirement to install and run CFE (it doesn't need any installation by the way) but an updated GoogleChrome browser running on a desktop device.
@@ -41,4 +46,3 @@ This panel simply shows you all the CSS styles you need to make the same image w
 
 ----------
 *Wednesday, Farvardin 5, 1396 AP*
-
