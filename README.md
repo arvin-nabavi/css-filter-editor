@@ -10,6 +10,10 @@ CSS 'filter' editor is an educational project to make teaching *CSS filters* eas
 ## How to use
 Its so easy to tell the functionality of every button in CFE but however here is a guide down below:
 
+## Live demo
+Sadly this demo is not very good but I couldn't make it better in Codepen. However real CFE offers a bit more features (most of them are related to the UI).
+[CFE Live demo](https://codepen.io/nabavi/full/peZJVQ/)
+
 ### Run CFE
 There is not any special requirement to install and run CFE (it doesn't need any installation by the way) but an updated GoogleChrome browser running on a desktop device.
 In order to open CFE just open the `index.html` file in GoogleChrome.
