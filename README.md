@@ -8,7 +8,7 @@ CSS 'filter' editor is an educational project to make teaching *CSS filters* eas
 
 
 ## Live demo
-**UPDATE:** Check out this wonderful demo live CFE and forget about the Codepen version on:
+**UPDATE:** Check out this wonderful online CFE and forget about the Codepen version:
 [Wonderful CFE online](https://akhavan-nabavi.github.io/css-filter-editor/)
 
 **OUTDATE:** Sadly this demo is not very good but I couldn't make it better in Codepen. However real CFE offers a bit more features (most of them are related to the UI).
