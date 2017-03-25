@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px; padding: 0px;
+    overflow: hidden;
+}
+
+html {
+    font-family: Arial;
+    color: #212121;
+    background-image: url( 'background.png' );
+    background-size: 20px 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper h1 {
+    text-height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+main {
+    display: flex;
+    width: 100%; height: calc( 100% - 115px );
+}
+
+.img-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    flex: 1 1 50%;
+    background-image: url( 'empty.jpg' );
+    background-size: 50px 50px;
+}
+
+.options-side {
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex: 1 1 25%;
+}
+
+.options-side table {
+    width: 100%;
+}
+
+.options-side table td, .options-side table th {
+    border-width: 0px;
+    border-color: rgba( 0, 0, 0, 0.3 );
+}
+.options-side table th {
+    border-style: solid;
+    border-bottom-width: 3px;
+}
+.options-side table td {
+    border-style: dashed;
+    border-bottom-width: 1px;
+}
+
+.options-side table * {
+    text-align: center;
+}
+
+.options-side table input {
+    width: 100%;
+}
+
+.css-side {
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex: 1 1 25%;
+    word-wrap: normal;
+    padding: 10px;
+    background-color: rgba( 55, 71, 79, 0.9 );
+}
+
+footer {
+    width: 100%; height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.display-none {
+    display: none;
+}

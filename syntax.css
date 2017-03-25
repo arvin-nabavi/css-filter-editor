@@ -1,0 +1,25 @@
+.syntax .selector {
+    color: #c62828;
+    font-weight: bold;
+}
+
+.syntax .char {
+    color: #9E9E9E;
+}
+
+.syntax .prop {
+    color: #2E7D32;
+    font-weight: bold;
+}
+
+.syntax .func {
+    color: #F57C00;
+}
+
+.syntax .num {
+    color: black;
+}
+
+.syntax .unit {
+    color: #E64A19;
+}

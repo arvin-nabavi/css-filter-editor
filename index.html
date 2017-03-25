@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>CSS 'filter' editor</title>
+
+        <link rel="stylesheet" href="style.css"  />
+        <link rel="stylesheet" href="aside.css"  />
+        <link rel="stylesheet" href="syntax.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <aside>
+                <div id="aside-arrow" class="show">
+                    <h3>></h3>
+                </div>
+                <div id="aside-menu">
+                    <div class="content" id="aside-content">
+                        <div id="toggle-img-side"    ><span>Toggle image  </span></div>
+                        <div id="toggle-options-side"><span>Toggle options</span></div>
+                        <div id="toggle-css-side"    ><span>Toggle CSS    </span></div>
+                    </div>
+                </div>
+            </aside>
+
+            <header>
+                <h1>CSS 'filter' editor</h1>
+            </header>
+            <main>
+                <div class="img-side" id="img-side">
+                    <img id="image" alt="Please enter a proper image :(" />
+                </div>
+
+                <div class="options-side" id="options-side">
+                    <fieldset>
+                        <legend>Filters: </legend>
+                        <table id="options-table"></table>
+                        <br />
+                        <button onclick="makeOptionsTable.reset ();">Reset all</button>
+                    </fieldset>
+
+                    <hr />
+
+                    <fieldset>
+                        <legend>Image: </legend>
+                        <input id="img-src" oninput="syncImageUrl ();" style="margin: 5px 0px; width: 100%;" />
+                        <input type="file" id="img-file" style="display: none;" /><br />
+                        <div style="display: flex; justify-content: space-between;">
+                            <button onclick="document.getElementById ( 'img-file' ).click ();">Open file</button>
+                            <button onclick="syncImageUrl.reset ();">Reset URL</button>
+                            <button disabled title="Requires a web server :|">Save</button>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="css-side syntax display-none" id="css-side">
+                    <span class='selector'>img</span> <span class="char">{</span>
+                    <p id="css-side-p" style="padding-left: 25px;"></p>
+                    <span class="char">}</span>
+                </div>
+            </main>
+
+            <footer>
+                <h6>By A. Akhavan Nabavi - Wednesday, Farvardin 5, 1396 AP - +989183141458</h6>
+            </footer>
+        </div>
+
+        <script src="makeOptionsTable.js"></script>
+        <script src="main.js"            ></script>
+        <script src="image.js"           ></script>
+        <script src="ui.js"           ></script>
+    </body>
+</html>
